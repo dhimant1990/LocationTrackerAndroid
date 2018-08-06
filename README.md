@@ -20,6 +20,7 @@ FusedLocationProviderClient is inside LocationServices class and uses the featur
 mFusedLocationClient = LocationServices.getFusedLocationProviderClient(this);
 ```
 https://github.com/codepath/android_guides/wiki/Retrieving-Location-with-LocationServices-API
+
 Location updates should always be done using the FusedLocationProviderClient leveraging the LocationServices.API as shown above.
 Do not use the older Location APIs which are much less reliable.
 Even when using the correct FusedLocationApi, there are a lot of things that can go wrong.
@@ -41,7 +42,7 @@ Even when using the correct FusedLocationApi, there are a lot of things that can
 
 
 ##### References
-https://developer.android.com/training/location/receive-location-updates.html
-https://github.com/googlesamples/android-play-location
-https://github.com/codepath/android_guides/wiki/Retrieving-Location-with-LocationServices-API
+https://developer.android.com/training/location/receive-location-updates.html<br/>
+https://github.com/googlesamples/android-play-location<br/>
+https://github.com/codepath/android_guides/wiki/Retrieving-Location-with-LocationServices-API<br/>
 
